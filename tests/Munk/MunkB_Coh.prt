@@ -1,0 +1,156 @@
+ BELLHOP/BELLHOP3D
+
+ BELLHOP- Munk profile, coherent                                                 
+ frequency =   50.00     Hz
+
+ Dummy parameter NMedia =            1
+
+     Spline approximation to SSP
+     Attenuation units: dB/wavelength
+     VACUUM
+
+ Depth =    5000.00 m
+
+ Sound speed profile:
+   z (m)     alphaR (m/s)   betaR  rho (g/cm^3)  alphaI     betaI
+
+      0.00      1548.52      0.00     1.00       0.0000    0.0000
+    200.00      1530.29      0.00     1.00       0.0000    0.0000
+    250.00      1526.69      0.00     1.00       0.0000    0.0000
+    400.00      1517.78      0.00     1.00       0.0000    0.0000
+    600.00      1509.49      0.00     1.00       0.0000    0.0000
+    800.00      1504.30      0.00     1.00       0.0000    0.0000
+   1000.00      1501.38      0.00     1.00       0.0000    0.0000
+   1200.00      1500.14      0.00     1.00       0.0000    0.0000
+   1400.00      1500.12      0.00     1.00       0.0000    0.0000
+   1600.00      1501.02      0.00     1.00       0.0000    0.0000
+   1800.00      1502.57      0.00     1.00       0.0000    0.0000
+   2000.00      1504.62      0.00     1.00       0.0000    0.0000
+   2200.00      1507.02      0.00     1.00       0.0000    0.0000
+   2400.00      1509.69      0.00     1.00       0.0000    0.0000
+   2600.00      1512.55      0.00     1.00       0.0000    0.0000
+   2800.00      1515.56      0.00     1.00       0.0000    0.0000
+   3000.00      1518.67      0.00     1.00       0.0000    0.0000
+   3200.00      1521.85      0.00     1.00       0.0000    0.0000
+   3400.00      1525.10      0.00     1.00       0.0000    0.0000
+   3600.00      1528.38      0.00     1.00       0.0000    0.0000
+   3800.00      1531.70      0.00     1.00       0.0000    0.0000
+   4000.00      1535.04      0.00     1.00       0.0000    0.0000
+   4200.00      1538.39      0.00     1.00       0.0000    0.0000
+   4400.00      1541.76      0.00     1.00       0.0000    0.0000
+   4600.00      1545.14      0.00     1.00       0.0000    0.0000
+   4800.00      1548.52      0.00     1.00       0.0000    0.0000
+   5000.00      1551.91      0.00     1.00       0.0000    0.0000
+
+                                 ( RMS roughness =   0.00     )
+     ACOUSTO-ELASTIC half-space
+   5000.00      1600.00      0.00     1.80       0.8000    0.0000
+
+ __________________________________________________________________________
+
+ Number of Source   depths, Sz =            1
+ Source   depths, Sz (m)
+   500.000    
+
+
+ __________________________________________________________________________
+
+ Number of Receiver depths, Rz =          501
+ Receiver depths, Rz (m)
+   0.00000       10.0000       20.0000       30.0000       40.0000    
+   50.0000       60.0000       70.0000       80.0000       90.0000    
+          ... 
+   5000.00    
+
+
+ __________________________________________________________________________
+
+ Number of Receiver ranges, Rr =         1001
+ Receiver ranges, Rr (km)
+   0.00000      0.100000      0.200000      0.300000      0.400000    
+  0.500000      0.600000      0.700000      0.800000      0.900000    
+          ... 
+   100.000    
+
+
+ Coherent TL calculation
+ Geometric hat beams in Cartesian coordinates
+ Point source (cylindrical coordinates)
+ Rectilinear receiver grid: Receivers at Rr( : ) x Rz( : )
+ __________________________________________________________________________
+
+ Number of beams in elevation   =         1000
+ Beam take-off angles (degrees)
+  -90.0000      -89.8198      -89.6396      -89.4595      -89.2793    
+  -89.0991      -88.9189      -88.7387      -88.5586      -88.3784    
+          ... 
+   90.0000    
+
+ __________________________________________________________________________
+
+
+ Step length,       deltas =   50.00     m
+
+ Maximum ray depth, Box%z  =   5500.     m
+ Maximum ray range, Box%r  =   101.0    km
+ No beam shift in effect
+
+
+Tracing beam       1    -90.00
+
+ Geometric hat beams                     
+ halfwidth  =    3063.2870021636709     
+ epsilonOpt =  (  0.0000000000000000     ,  1473992430.7922359     )
+ EpsMult    =    1.0000000000000000     
+
+Tracing beam      21    -86.40
+Tracing beam      41    -82.79
+Tracing beam      61    -79.19
+Tracing beam      81    -75.59
+Tracing beam     101    -71.98
+Tracing beam     121    -68.38
+Tracing beam     141    -64.77
+Tracing beam     161    -61.17
+Tracing beam     181    -57.57
+Tracing beam     201    -53.96
+Tracing beam     221    -50.36
+Tracing beam     241    -46.76
+Tracing beam     261    -43.15
+Tracing beam     281    -39.55
+Tracing beam     301    -35.95
+Tracing beam     321    -32.34
+Tracing beam     341    -28.74
+Tracing beam     361    -25.14
+Tracing beam     381    -21.53
+Tracing beam     401    -17.93
+Tracing beam     421    -14.32
+Tracing beam     441    -10.72
+Tracing beam     461     -7.12
+Tracing beam     481     -3.51
+Tracing beam     501      0.09
+Tracing beam     521      3.69
+Tracing beam     541      7.30
+Tracing beam     561     10.90
+Tracing beam     581     14.50
+Tracing beam     601     18.11
+Tracing beam     621     21.71
+Tracing beam     641     25.32
+Tracing beam     661     28.92
+Tracing beam     681     32.52
+Tracing beam     701     36.13
+Tracing beam     721     39.73
+Tracing beam     741     43.33
+Tracing beam     761     46.94
+Tracing beam     781     50.54
+Tracing beam     801     54.14
+Tracing beam     821     57.75
+Tracing beam     841     61.35
+Tracing beam     861     64.95
+Tracing beam     881     68.56
+Tracing beam     901     72.16
+Tracing beam     921     75.77
+Tracing beam     941     79.37
+Tracing beam     961     82.97
+Tracing beam     981     86.58
+
+ CPU Time =        1.39    s
